@@ -4,6 +4,10 @@
 
 It was originally designed to aid debugging [Shortcat](http://shortcatapp.com/) by visualising `CGRect`s or `NSRect`s from within `lldb`.
 
+## Screenshot
+
+![Screenshot](http://cl.ly/image/3a3f2s0k2a06/drawrect.png)
+
 ## Usage
 
 `drawrect` was designed to be used from within `lldb`
