@@ -4,9 +4,11 @@
 
 It was originally designed to aid debugging [Shortcat](http://shortcatapp.com/) by visualising `CGRect`s or `NSRect`s from within `lldb`.
 
+It also serves as an example on how to build a command line app with RubyMotion.
+
 ## Screenshot
 
-![Screenshot](http://cl.ly/image/3a3f2s0k2a06/drawrect.png)
+![Screenshot](https://github.com/chendo/drawrect/raw/master/screenshot.png)
 
 ## Usage
 
