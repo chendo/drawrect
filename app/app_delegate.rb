@@ -1,4 +1,5 @@
 class AppDelegate
+  VERSION = '0.9.0'
   def main
     args = NSProcessInfo.processInfo.arguments
 
@@ -8,6 +9,9 @@ class AppDelegate
       return
     when 'help', nil
       showHelp
+      exit 0
+    when 'version'
+      $stderr.puts("drawrect v#{VERSION}")
       exit 0
     end
 
@@ -31,10 +35,12 @@ class AppDelegate
       See https://github.com/chendo/drawrect for more details.
 
       Usage:
-      drawrect rect <rect> [label] [colour] [opacity] - draws a rect with bottom left origin
+      drawrect rect <rect> [label] [colour] [opacity]         - draws a rect with bottom left origin
       drawrect flipped_rect <rect> [label] [colour] [opacity] - draws a rect with top left origin
-      drawrect clear - clears all rects
-      drawrect quit - quits server
+      drawrect clear   - clears all rects
+      drawrect quit    - quits server
+      drawrect help    - shows this message
+      drawrect version - shows version number
     HELP
   end
 
