@@ -1,5 +1,5 @@
 class AppDelegate
-  VERSION = '0.9.0'
+  VERSION = '1.0.0'
   def main
     args = NSProcessInfo.processInfo.arguments
 
