@@ -33,7 +33,7 @@ drawrect quit - quits server
 * Download the [binary](https://github.com/chendo/drawrect/releases/download/v1.0/drawrect) or [build it yourself](#building-from-source)
   * `curl -L https://github.com/chendo/drawrect/releases/download/v1.0/drawrect > /usr/local/bin/drawrect`
 * **Optional:** Grab `lldb` script:
-  * `mkdir -p ~/Library/lldb; curl https://github.com/chendo/drawrect/raw/master/drawrect.py > ~/Library/lldb/drawrect.py`
+  * `mkdir -p ~/Library/lldb; curl -L https://github.com/chendo/drawrect/raw/master/drawrect.py > ~/Library/lldb/drawrect.py`
   * `echo "command script import ~/Library/lldb/drawrect.py" >> ~/.lldbinit`
 
 ## Notes
